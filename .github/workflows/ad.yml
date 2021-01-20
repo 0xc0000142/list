@@ -5,12 +5,15 @@ on:
 #  push:
 #    branch:
 #      - "workplace"
+  watch:
+    types: started
 env:
   PUSH_TO_RELEASE: false
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+    if: github.event.repository.owner.id == github.event.sender.id
     steps:
       - name: Setup Go 1.x
         uses: actions/setup-go@v2
