@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +tJ5Rril1alrNp9e7lHvKg
+! Checksum: T6hlJrHZaXwUC4HnROAHWQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202101232046
-! Last Modified: 2021年01月23日 20:46
+! Version: 202101240102
+! Last Modified: 2021年01月24日 01:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -20459,6 +20459,7 @@ _popunder+$popup
 ##.ad_980x260
 ##.ad_CustomAd
 ##.ad_Flex
+##.ad_Flexi_LowerRight
 ##.ad_Left
 ##.ad_Right
 ##.ad__caption
@@ -23267,6 +23268,7 @@ _popunder+$popup
 ##.agi-adsaleslinks
 ##.agi-adtop
 ##.ahe-ad.consumable
+##.ahe-adsticky
 ##.ai-top-ad-outer
 ##.aisle-ad
 ##.aisoad
@@ -28277,6 +28279,7 @@ _popunder+$popup
 ##.rt_el_advert
 ##.rt_top_adv
 ##.rtd_ads_text
+##.rtkadunit-wrapper
 ##.rtmad
 ##.rtmm_right_ad
 ##.runner-ad
@@ -31350,6 +31353,7 @@ _popunder+$popup
 ###taboola-below-home-thumbnails-homepage
 ###taboola-content
 ###taboola-footer-ad
+###taboola-mid-article-thumbnails
 ###taboola-placeholder
 ###taboola-right-rail-stream-2nd
 ###taboola-right-rail-thumbnails-1st
@@ -55444,7 +55448,7 @@ interestingengineering.com##.adW
 beautysouthafrica.com,blurtit.com,breakingnews.com,dataversity.net,eatv.tv,eurowerks.org,heyuguys.co.uk,ippmedia.com,linkedin.com,readersdigest.co.uk,sakshi.com,songlyrics.com,sugarrae.com##.adblock
 pricespy.co.nz##.adbox
 moviechat.org##.adc
-fanatix.com,tucsonsentinel.com##.adcontainer
+ancient.eu,fanatix.com,tucsonsentinel.com##.adcontainer
 sumanasa.com##.adcontent
 edutourism.in,thehindu.com##.add
 africareview.com##.add-banner
@@ -55714,6 +55718,7 @@ hardware.info##.br_top_container
 macworld.com##.brand-post-module
 thetowner.com##.branding-item
 primedia.co.za##.branding-sponsor
+eightieskids.com##.break
 karachicorner.com##.bsa180
 karachicorner.com##.bsa300
 karachicorner.com##.bsa336
@@ -94663,6 +94668,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /^https?:\/\/www\.publix\.com\/webcontent\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=publix.com
 /^https?:\/\/www\.sierra\.com\/resource\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=sierra.com
 /^https?:\/\/www\.staples\.com\/publicwww\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=staples.com
+/^https?:\/\/www\.usbank\.com\/webcontent\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=usbank.com
 ||127.0.0.1^$third-party,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay-kleinanzeigen.de|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|globo.com|gumtree.com|lendup.com|mbna.ca|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com|whatleaks.com
 ||all3dp.com/kbcbqexpqvz8wrk88augy7b.js
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
