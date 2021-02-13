@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dQsZ0CVFLM7eI6NzSJry7Q
+! Checksum: oBciwxNLOXwdw7RBmpm8cA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202102130845
-! Last Modified: 2021年02月13日 08:45
+! Version: 202102131222
+! Last Modified: 2021年02月13日 12:22
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -33092,7 +33092,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||livefyre.com/tracking/
 ||livefyre.com^*/tracker.js
 ||livefyre.com^*/tracking/
-||livehelpnow.net/lhn/jsutil/getinvitationmessage.aspx?
+||livehelpnow.net/lhn/handler/$image
 ||livelyvideo.tv/lb/logger
 ||liverail.com/?metric=
 ||liverail.com/track/?
@@ -33506,6 +33506,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||refer.ccbill.com^
 ||referrer.disqus.com^
 ||reflow.tv/pixels/
+||rejoiner.com/tracker/
 ||relap.io^*/head.js?
 ||relaymedia.com/ping?$third-party
 ||replyat.com/gadgetpagecounter*.asp?
@@ -37673,11 +37674,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zylom.com^*/tracking_spotlight.js
 ||zytpirwai.net/track/
 ||lightning.ncaa.com/launch/$script
-||eu1l.dotabuff.com^
-||eu1l.overbuff.com^
-||eu1l.speedrun.com^
-||eu1l.trackdota.com^
-||eu1l.valorbuff.com^
 ||bing.com/fd/ls/l?IG=
 ||bing.com/fd/ls/lsp.aspx
 ||bing.com^*/glinkping.aspx$ping,xmlhttprequest
