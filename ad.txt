@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yo9aXIZPlg0qlkE+bjYsww
+! Checksum: 83CtAGSdeJU1HRt/NDsUZw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202102231221
-! Last Modified: 2021年02月23日 12:21
+! Version: 202102231623
+! Last Modified: 2021年02月23日 16:23
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1720,12 +1720,15 @@ _xiuno_com_ad/
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##.article_ad_top
+##.advertising_lightbox
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||hnjls.com.cn^
 ||gars57.cn^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
@@ -9650,6 +9653,7 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||apk.tw/static/js/showpic.js
+||717dyi.com/js/dh
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
