@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tALwxpHoiH6QLJikfVu9sw
+! Checksum: cJQC874o0sUvQk2ogLcBHg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202102241219
-! Last Modified: 2021年02月24日 12:19
+! Version: 202102241623
+! Last Modified: 2021年02月24日 16:23
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -83611,6 +83611,7 @@ _admiral.
 /cmp/messaging.js
 /cmp2.js
 /cmp3.js
+/slot_cmp.js
 /sourcepoint.js
 /SourcePoint_JS_Files/*
 &pagegroup=*&url=$script
@@ -89084,6 +89085,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||edkt.io^*/edgekit.min.js
 ||edrone.me/trace?
 ||egmontpublishing.dk/tracking/
+||elpais.com/t.gif
 ||els-cdn.com^*/analytics.js
 ||email-edg.paypal.com/o/$image
 ||email.mediafire.com/wf/open?$third-party
@@ -89092,6 +89094,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||emihosting.com^*/tracking/
 ||endorsal.io/check/
 ||ensighten.com/error/e.php?
+||epimg.net/js/gdt/
+||epimg.net/t.gif
 ||epl.paypal-communication.com^$script
 ||epromote.co.za/track/
 ||erne.co/tags?
@@ -91393,6 +91397,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||contadores.miarroba.com^
 ||contadores.miarroba.es^
 ||creatives.sunmedia.tv^
+||datanoticias.prisasd.com^
 ||enetres.net/StatisticsV1/
 ||epimg.net/js/vr/vrs.
 ||g-stats.openhost.es^
@@ -94343,7 +94348,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||consent.api.osano.com^
 ||consent.inm.ie^
 ||d.sourcepoint.capitalfm.com^
-||ep00.epimg.net^
 ||fuse.forbes.com^
 ||gamesradar-gb.gamesradar.com^
 ||h-bid.com^$third-party
