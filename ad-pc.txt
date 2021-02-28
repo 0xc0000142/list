@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dsu19E4Y4Uy3wuv5AXc3KQ
+! Checksum: 0/2l9rmtgLAvjSY0NA6lDw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202102281223
-! Last Modified: 2021年02月28日 12:23
+! Version: 202102281622
+! Last Modified: 2021年02月28日 16:22
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -49290,6 +49290,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||imglnkd.com^
 ||ioredi.com^
 ||isupopc.com^
+||jistvotestabl.space^
 ||joredi.com^
 ||joredii.com^
 ||jsmpsi.com^
@@ -49317,6 +49318,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||siterdm.com^
 ||softspace.mobi^
 ||soonbigo.com^
+||ssionsupre.fun^
 ||sxuunews.pro^
 ||syndicpop.com^
 ||syndopop.com^
@@ -53139,7 +53141,7 @@ $popup,third-party,domain=loader.to|play.hydracdn.network|streamtape.com|vidclou
 ||zuzandra.info/b?
 /^https?:\/\/.*\.(club|news|live|online|store|tech|guru|cloud|bid|xyz|site|pro|info|online|icu|monster|buzz|fun|website|photos|re|casa|top|today|space|network|live|work|systems|ml|world|life)\/.*/$domain=1vag.com|4tube.com|asianpornmovies.com|getsex.xxx|glam0ur.com|hclips.com|hdzog.com|homemadevids.org|hotmovs.com|milfzr.com|porn555.com|pornforrelax.com|pornj.com|pornl.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.com|thegay.porn|tits-guru.com|tubepornclassic.com|tuberel.com|txxx.com|txxx.tube|upornia.com|vjav.com|voyeurhit.com|xozilla.com
 /^https?:\/\/motherless\.com\/[a-z0-9A-Z]{3,}\.[a-z0-9A-Z]{2,}\_/$image,subdocument
-/^https?:\/\/.*\/.*sw[0-9._].*/$script,xmlhttprequest,domain=1vag.com|4tube.com|adult-channels.com|analdin.com|biguz.net|bogrodius.com|daftsex.com|extremetube.com|fantasti.cc|fux.com|hclips.com|heavy-r.com|incesto69.com|indianbfvideos.com|megapornx.com|milfzr.com|mypornhere.com|niceporn.xxx|porn555.com|pornerbros.com|pornj.com|pornl.com|pornototale.com|porntube.com|sexu.com|spankwire.com|sss.xxx|thisav.com|titkino.net|tubepornclassic.com|tuberel.com|tubev.sex|txxx.com|vidmo.org|vpornvideos.com|xozilla.com|youporn.lc|youpornhub.it|yourdailypornstars.com
+/^https?:\/\/.*\/.*sw[0-9._].*/$script,xmlhttprequest,domain=1vag.com|4tube.com|adult-channels.com|analdin.com|biguz.net|bogrodius.com|daftsex.com|extremetube.com|fantasti.cc|fuqer.com|fux.com|hclips.com|heavy-r.com|incesto69.com|indianbfvideos.com|megapornx.com|milfzr.com|mypornhere.com|niceporn.xxx|porn555.com|pornerbros.com|pornj.com|pornl.com|pornototale.com|porntube.com|sexu.com|spankwire.com|sss.xxx|thisav.com|titkino.net|tubepornclassic.com|tuberel.com|tubev.sex|txxx.com|vidmo.org|vpornvideos.com|xozilla.com|youporn.lc|youpornhub.it|yourdailypornstars.com
 @@||netdna-storage.com^$xmlhttprequest,domain=gaybeeg.info
 @@||translate.google.com^$script,domain=gaybeeg.info
 @@||wp.com/wp-content/js/$script,domain=gaybeeg.info
@@ -68446,7 +68448,6 @@ bdimg.com,tieba.baidu.com,tieba.com,wapp.baidu.com###pblist > li[class]:not(.j_p
 pchome.net###pchome_970_90_a
 kaixindy.com###pege_ad1
 360kuai.com###pendant_interactive_gg
-tsdm.live###pgt:first-child + div > a
 axiang.cc###photo-sliders + .widget_text
 sina.com.cn###pip_taobao
 pixnet.net###pixblogad
@@ -80172,6 +80173,7 @@ fqsousou.com,kengso.com#@#.user-share
 /hm.pl?p=
 /hmapxy.js
 /hnpprivacy-min.
+/hockeystack.min.js
 /home/Analytic?
 /homeCounter.
 /homepage/analytics.
@@ -84896,6 +84898,7 @@ _mongo_stats/
 ||hivps.xyz^$third-party
 ||hlserve.com^$third-party
 ||hmstats.com^$third-party
+||hockeystack.com^$third-party
 ||hoood.info^$third-party
 ||horzrb.com^$third-party
 ||hospitality-optimizer.com^$third-party
@@ -91718,6 +91721,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||clicks.hurriyet.com.tr^
 ||clicks.traffictrader.net^
 ||client-event-reporter.twitch.tv^
+||client-log.box.com^
 ||climatedesk.org*/pixel.gif
 ||clk.about.com^
 ||clkstat.china.cn^
@@ -94212,7 +94216,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||a02342.yourlocalguardian.co.uk^
 ||cb-mms.carbuyer.co.uk^
 ||cdn-alliancegravity.s3.amazonaws.com^
-||cmp.osano.com^
 ||commsvc.stern.de^
 ||consent.api.osano.com^
 ||consent.inm.ie^
@@ -94904,6 +94907,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||fsm.lapresse.ca^
 ||g.itespresso.fr^
 ||galerieslafayette.com/c/
+||gamergen.com/ajax/actualites/addVue
 ||ianimes.org/img/tracker.gif
 ||iphdata.lequipe.fr^*/getInfapp.php?
 ||iphonesoft.fr/js/analytics-
