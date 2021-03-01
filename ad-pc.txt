@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: k1yjaLqi/JpJ9R2LvzJVbA
+! Checksum: MBHpBEON8B4xH7rTDS2ozA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202103012025
-! Last Modified: 2021年03月01日 20:25
+! Version: 202103020031
+! Last Modified: 2021年03月02日 00:31
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -14669,6 +14669,7 @@ _popunder+$popup
 ###div-advert
 ###div-dfp-BelowContnet
 ###div-dfp-bottom_leaderboard
+###div-gpt-FloorAd
 ###div-gpt-LDB1
 ###div-gpt-MPU1
 ###div-gpt-MPU2
@@ -32176,7 +32177,7 @@ express.de,focus.de#@#.trc_rbox_border_elm .syndicatedItem
 express.de,focus.de#@#.trc_rbox_div .syndicatedItem
 express.de,focus.de#@#.trc_related_container div[data-item-syndicated="true"]
 yahoo.com#@#.type_ads_default
-wingsbirdpro.com#@#.vertical-ads
+codedevstuff.blogspot.com,wingsbirdpro.com#@#.vertical-ads
 youtube.com#@#.video-ads
 vinden.se#@#.view_ad
 nytimes.com,nytimes3xbfgragh.onion#@#.wideAd
@@ -38154,6 +38155,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||outlookabsorb.com^
 ||outotheret.club^
 ||outsimfat.site^
+||outsmoke-niyaxabura.com^
 ||outtunova.com^
 ||outwarent.club^
 ||ouzoadru.net^
@@ -38470,7 +38472,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||poifinsegg.com^
 ||poignantcover.com^
 ||poignantsat.com^
-||point-of-entry.com^
 ||pointexcusestretching.com^
 ||pointpopu.top^
 ||policemanciderpeeks.com^
