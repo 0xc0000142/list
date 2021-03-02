@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: z8Pk0wwdxQkn4ESFIi/KVA
+! Checksum: MvCG3R2h5HpM+vmuji3xUg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202103021223
-! Last Modified: 2021年03月02日 12:23
+! Version: 202103021623
+! Last Modified: 2021年03月02日 16:23
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -19238,6 +19238,7 @@ _popunder+$popup
 ##.ad-midleader
 ##.ad-mobile
 ##.ad-mobile-banner
+##.ad-mobile-flex-pos2
 ##.ad-mobile-mpu
 ##.ad-mod
 ##.ad-module
@@ -67363,6 +67364,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+159i.com##.ca
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -97037,7 +97039,6 @@ douyu.com##.ActPayDialog
 baidu.com##.reader-pop-manager-view-containter
 jingyingjiajiao.com##.bdgg
 jingyingjiajiao.com##DIV[style="width:auto;border: 1px solid #aaaaaa; position:fixed; bottom:1px; right:1px;z-index:2000"]
-baidu.com##.vip-member-pop-content
 baidu.com##.app-side-ad
 kanman.com###\5f _acgn-virtual-coin__
 ifeng.com##a[class^="bookrack-"]
