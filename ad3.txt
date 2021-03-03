@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kRY3bk0DrZyAJIptwpFK3A
+! Checksum: nTBduBfRaMywEPtLZkrc1g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202103030420
-! Last Modified: 2021年03月03日 04:20
+! Version: 202103030848
+! Last Modified: 2021年03月03日 08:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1286,6 +1286,7 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||ax21pics.org^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/d/*-*-*.ap|$script,third-party
@@ -9233,6 +9234,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+1point3acres.com##.wp.a_t
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -37833,6 +37835,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wellsfargo.com/tracking/
 ||wellsphere.com/?hit=
 ||whatcar.com/Client/Stats/
+||whatleaks.com/check_ports/?
 ||whistleout.com.au/track
 ||whstatic.com^*/ga.js?
 ||wikihow.com/ev/*?events=
@@ -38036,6 +38039,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ebaystatic.com^*/g52yxhxv2mzcbealmlkri4kn5av.js$script,domain=ebay.com
 ||eddiebauer.com/resource/
 ||finishline.com/fufhpqdn/
+||fredmeyer.com/kkhepdqgay/
 ||groupon.com/resource/
 ||kohls.com/libraries/
 ||localhost^$third-party,domain=globo.com

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Gu9ZYFN2oA7O7CJhS1MfOg
+! Checksum: lZIx8FfTcn0B/TYhrEngFQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202103030420
-! Last Modified: 2021年03月03日 04:20
+! Version: 202103030848
+! Last Modified: 2021年03月03日 08:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -32166,9 +32166,6 @@ africasports.net,bakersfield.com,cheatpain.com,diplomat.so,directwonen.nl,dramac
 anisearch.com#@#.chitikaAdBlock
 theladbible.com#@#.content_tagsAdTech
 topzone.lt#@#.forumAd
-localeyes.dk#@#.pub_300x250
-localeyes.dk#@#.pub_300x250m
-localeyes.dk#@#.pub_728x90
 soschildrensvillages.ca#@#.section-sponsor
 localeyes.dk#@#.text-ad
 localeyes.dk#@#.text-ad-links
@@ -42479,6 +42476,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||adtgs.com^$third-party
 ||adthebest.online^$third-party
 ||adthrive.com^$third-party
+||adthurst.com^$third-party
 ||adtival.com^$third-party
 ||adtival.network^$third-party
 ||adtoadd.com^$third-party
@@ -59447,6 +59445,7 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||ax21pics.org^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/d/*-*-*.ap|$script,third-party
@@ -67394,6 +67393,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+1point3acres.com##.wp.a_t
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -93782,6 +93782,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wellsfargo.com/tracking/
 ||wellsphere.com/?hit=
 ||whatcar.com/Client/Stats/
+||whatleaks.com/check_ports/?
 ||whistleout.com.au/track
 ||whstatic.com^*/ga.js?
 ||wikihow.com/ev/*?events=
@@ -93985,6 +93986,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ebaystatic.com^*/g52yxhxv2mzcbealmlkri4kn5av.js$script,domain=ebay.com
 ||eddiebauer.com/resource/
 ||finishline.com/fufhpqdn/
+||fredmeyer.com/kkhepdqgay/
 ||groupon.com/resource/
 ||kohls.com/libraries/
 ||localhost^$third-party,domain=globo.com
