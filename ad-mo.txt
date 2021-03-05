@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gA4VuyUBVjJLSQlThoUKoQ
+! Checksum: 2ZRxt6CRfsXYkYb3N2ZSvQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202103050849
-! Last Modified: 2021年03月05日 08:49
+! Version: 202103051224
+! Last Modified: 2021年03月05日 12:24
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -34293,6 +34293,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||data-data-vac.com^
 ||datedissyuk.icu^
 ||dateregionsmadman.com^
+||dateszone.net^
 ||dating2cloud.org^
 ||daugloon.net^
 ||dauntlessomelette.com^
@@ -49646,6 +49647,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||beachcamera.com/assets/banners/
 ||beauties-of-ukraine.com/export.js
 ||bee4.biz/banners/
+||beget.tech/cpatracker/
 ||bemyapp.com/trk/$third-party
 ||bergen.com^*/sponsoredby-
 ||besthosting.ua/banner/
@@ -95030,7 +95032,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||ea.odalys-vacation-rental.com^
 ||ea.officedepot.fr^
 ||ea.pixmania.de^
-||ea.pixmania.fi^
 ||ea.pixmania.ie^
 ||ea.pixmania.it^
 ||ea.pixmania.nl^
@@ -95057,7 +95058,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||eulerian.sarenza.com^
 ||eulerian.splendia.com^
 ||eultech.fnac.com^
-||eur3.mvjcdn.com^
 ||exd4.destinia.com.au^
 ||f7ds.liberation.fr^
 ||fs.com/js/analysis.js
@@ -95066,7 +95066,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||gjr5.yoigo.com^
 ||guq9.vente-unique.it^
 ||mj23.eulerian.com^
-||mo.moonpig.com^
 ||mva1.maeva.com^
 ||ncx2.voyage-prive.it^
 ||netc.sfr.fr^
