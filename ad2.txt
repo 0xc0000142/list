@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OHrUPPVkIfmOom2+R00j/A
+! Checksum: 4pWq3hgPsbVOczGN0mIQxw
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202103090032
-! Last Modified: 2021年03月09日 00:32
+! Version: 202103090849
+! Last Modified: 2021年03月09日 08:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1280,6 +1280,7 @@ _xiuno_com_ad/
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##.col-md-10 > .banner-table-block
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
@@ -3903,7 +3904,7 @@ $websocket,domain=5nj.com|cechi8.com
 /ysm.ezprice.net/*
 ://*btbtt.*/imgs.js
 ://*btbtt.*/view/image/QT_
-://dmhy.org^*?$image
+://dmhy.org^*.*?$image
 ://www.*.js|$script,third-party,domain=159i.com|r3sub.com|thisav.com
 :88/lighttpd/default/
 ?method=baidu.ting.commercial.tactics&
@@ -3916,6 +3917,7 @@ _yad_jsonp_
 ||*.$image,rewrite=abp-resource:1x1-transparent-gif,third-party,domain=rmdown.com
 ||*/ad/$rewrite=abp-resource:blank-mp3,domain=huaren.tv
 ||*xav.*/guang/*.gif
+||anoneko.com^*.*?$image
 ||*xav.*/guang/*.jpg
 ||007.mx/flv/
 ||007ds.com/js/js/
@@ -8294,7 +8296,7 @@ _yad_jsonp_
 ||ww9874.com/asset/playerInit.js
 ||www-dnwx-com.anquanbao.cn/pic
 ||www.china.com.cn/node_$domain=news.china.com.cn
-||www.dmhy.org^*?$image
+||www.dmhy.org^*.*?$image
 ||wwwbaiducom.xyz/4/js4/
 ||wwwcdn.kimiss.net/btn/
 ||wx.sina.com.cn/iframe/pdps/
@@ -10787,7 +10789,6 @@ crsky.com##.banner-leader
 wenku.baidu.com##.banner-more-title
 fuli.us,zhumengwl.com##.banner-post
 smzdm.com##.banner-stuff
-big-cup.tv,g-cup.tv##.banner-table-block
 5118.com##.banner-top
 firefoxchina.cn##.banner-words
 fanyi.baidu.com,longzhu.com##.banner-wrap
