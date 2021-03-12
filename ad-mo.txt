@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uy7nwKNOZUBgkW2ciii1Ww
+! Checksum: V+rNSclUrUyNWXZjhM/36A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202103130032
-! Last Modified: 2021年03月13日 00:32
+! Version: 202103130421
+! Last Modified: 2021年03月13日 04:21
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -12763,6 +12763,7 @@ _popunder+$popup
 ###adv-Middle2
 ###adv-Scrollable
 ###adv-Top
+###adv-TopLeft
 ###adv-banner
 ###adv-box
 ###adv-comments-placeholder
@@ -30915,6 +30916,7 @@ _popunder+$popup
 ##a[href^="https://my-movie.club/"]
 ##a[href^="https://myusenet.xyz/"]
 ##a[href^="https://offerforge.net/"]
+##a[href^="https://offers.refchamp.com/"]
 ##a[href^="https://playuhd.host/"]
 ##a[href^="https://porndeals.com/?track="]
 ##a[href^="https://porngames.adult/?SID="]
@@ -37254,6 +37256,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||mduinqxgi.com^
 ||mdwvwbyvqh.com^
 ||meajnbdavp.com^
+||mealparameter.com^
 ||meantlick.com^
 ||meawuerhvjmty.com^
 ||mechanicsearnestobjections.com^
@@ -52084,6 +52087,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||dshield.org/images/cdibanner.jpg
 ||dyncdn.me/static/20/js/expla*.js$domain=rarbg.to|rarbg2019.org|rarbg2020.org|rarbg2021.org|rarbgaccess.org|rarbgaccessed.org|rarbgmirror.com|rarbgmirror.org|rarbgmirrored.org|rarbgp2p.org|rarbgproxied.org|rarbgproxy.org|rarbgprx.org|rarbgto.org|rarbgunblock.com|rarbgunblocked.org|rarbgway.org
 ||eawaz.com/wp-content/plugins/ml-slider/
+||ebay.com/scl/js/ScandalLoader.js
 ||ebayrtm.com/rtm?RtmCmd*&enc=
 ||ebayrtm.com/rtm?RtmIt
 ||ebaystatic.com^*/ScandalJS-
@@ -53273,8 +53277,11 @@ $websocket,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|
 ||3movs.com/sd3/
 @@||thegay.com/assets/jwplayer-*/jwplayer.core.controls.html5.js|
 @@||thegay.com/assets/jwplayer-*/jwplayer.js|
-@@||thegay.com/upd/*/assets/preview*.js|
-@@||thegay.com/upd/*/static/desktop/js/*.js|
+@@||thegay.com/upd/20210122.*/assets/previewl1b.20190620.1.js|
+@@||thegay.com/upd/20210122.*/static/desktop/js/chunk-common.js|
+@@||thegay.com/upd/20210122.*/static/desktop/js/chunk-vendors.js|
+@@||thegay.com/upd/20210122.*/static/desktop/js/index.js|
+@@||thegay.com/upd/20210122.*/static/desktop/js/video.js|
 ||thegay.com^$script
 .com./$popup,domain=pornhub.com|pornhubthbh7ap3u.onion
 ^utm_medium=pops^$popup,domain=ratedporntube.com|sextuberate.com
@@ -54550,6 +54557,7 @@ whosampled.com##.btnRingtoneTrack
 boredomtherapy.com##.btparel1
 politico.com##.bump-in.story-enhancement
 switchboard.com##.business_premium_results
+filecrypt.cc##.butt0ns
 go.extra-drive.com,linkhub.icu##.button
 imac-torrents.com##.button-green
 miloyski.com##.button[target="_blank"]
@@ -54746,6 +54754,7 @@ fandom.com##.featured-video__wrapper
 slickdeals.net##.featuredCouponsDiscounts
 whitepages.ae##.featured_companies_bg_main
 tv.com##.featured_providers
+filecrypt.cc##.fiIltheadblockqueue2
 nagpurtoday.in##.film-right-s
 thestranger.com##.fish-butter
 mentalfloss.com##.fixed-footer-section
