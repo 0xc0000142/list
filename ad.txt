@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Bp5DhsgAlKEsDuDCeHRabQ
+! Checksum: N8KtnQBu0adi+xtMvDormg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202103150850
-! Last Modified: 2021年03月15日 08:50
+! Version: 202103151224
+! Last Modified: 2021年03月15日 12:24
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1736,6 +1736,8 @@ _xiuno_com_ad/
 ###projectpostbody > A[target="_blank"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||zswinwin.xyz^
+||vc370.com^
 ||5551193.com^
 ||3338863.com^
 ||3336639.com^
@@ -4194,6 +4196,7 @@ ubmcmm.baidustatic.com
 $popup,third-party,domain=76fengyun.com|88files.net|99files.net|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|jxedt.com|mimima.com|rmdown.com|soyunpan.com|youtubeto.com
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
+||5lu8.com^$popup,third-party
 .com/?Intr=$popup,third-party
 /BadwebRemindPage.aspx?param=$popup,third-party
 /hndxweb/push$popup,third-party
@@ -8623,7 +8626,6 @@ _yad_jsonp_
 ||vodttdy.com/template/zsy_badian/js/stui_
 ||vodxc.in/js/xccy/
 ||vodxc.tv/js/xccy/
-||vpsmm.com/tu/
 ||vsuda.cn/data/upload/20
 ||vtyyy.com/template/JOELEO/asset/js/jquery.leeleo.js
 ||vuejs.org/images/geekbang
@@ -9055,7 +9057,6 @@ _yad_jsonp_
 ||yy18.info/yyads/
 ||yy6080.cn/js/df.js
 ||yy8090.vip/js/abc/
-||yy90.cn/js/backyy/
 ||yybx.oss-cn-hangzhou.aliyuncs.com^
 ||yyo876.com^*.php
 ||yyoyyu.com^*.php
@@ -9229,8 +9230,15 @@ _yad_jsonp_
 ||alicdn.com/kf/H831ca346aac84070b2461d27b22a382ah.jpg
 ||qlogo.cn/qqmail_head/6HA8T4Db69wfmKdwlCCubfibzXiaYnnvO872SCeO17s4P1mv3goIwUPRvNdEBiaZaic8PmicoqibgLFjM/0
 ||qlogo.cn/qqmail_head/6HA8T4Db69wfmKdwlCCubfibzXiaYnnvO872SCeO17s4NrfYZuqj3NDFsSturT8ibh0sPrzzelt0mY/0
+/\/images\/[0-9]/$image,domain=aae3.com
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+vpsmm.com##DIV[id^="sidebar"]
+vpsmm.com##DIV[id^="top"]
+6090ba.com##[ontouchstart]
+aae3.com###coo_qqBrowser
+aae3.com###menu
+aae3.com##FORM + CENTER > P[align="center"]
 36mh.net##DIV[style="width:960px;height:300px;margin:0 auto;"]
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -9778,7 +9786,6 @@ www.pixnet.net###extradiv5
 apk.tw###favatarRight
 baidu.com###fc-left
 yzpsb.net###fc_foot
-vpsmm.com###featured_topics-1
 baidu.com###fengchao-dialog
 baidu.com###fengchaoad
 maxthon.cn###festival-bottom-wrapper
@@ -10143,7 +10150,7 @@ gzmama.com###mdvtips
 l114la.com###media
 hinet.net###media_ad_popup_overlay
 hexieshe.cn###media_image-2
-hexieshe.cn,vpsmm.com###media_image-3
+hexieshe.cn###media_image-3
 loldk.com###meizi_ad
 avtb2022.com###menu-main-content > li:nth-child(n+5)
 fuliba.net###menu-nav > .menu-item:nth-child(n+4):not(:last-child)
@@ -10562,7 +10569,6 @@ duba.com###top_joke
 huaban.com###top_promotion
 qzone.qq.com###top_tips_seat
 wendu.cn###topads
-vpsmm.com###topads_a111
 10jqka.com.cn###topba1
 gtloli.one###topbanner
 blog.163.com###topbar_randShowArea
@@ -11202,7 +11208,6 @@ baidu.com##.aside-inner > div[style*="height:"]
 jingyan.baidu.com##.aside-pro-container
 fx678.com##.aside-store
 oschina.net##.aside-topjj
-vpsmm.com##.aside-widget > :nth-last-child(n+3)
 anquan.org##.aside_profile_activity > div:first-child
 showtv.com.tw##.ask18
 acgking.com,dbtmn.com,typin.cn##.asst
@@ -11378,7 +11383,7 @@ ilxdh.com##.bottom-show
 aoshu.com,zhongkao.com,zuowen.com##.bottomImg
 lenovo.com.cn##.bottom_ad_ban_bg
 lenovo.com.cn##.bottom_ad_fla
-23pili.com,kt51.com,nfstar.net,yy90.cn##.bottom_fixed
+23pili.com,kt51.com,nfstar.net##.bottom_fixed
 360kuai.com##.bottom_rectangle_gg_outer_box
 13tv.top,freehao123.com##.box
 cb.com.cn##.box > a[href^="http"]:not([href*=".cb."])
@@ -12051,7 +12056,6 @@ jmw.com.cn##.head_3
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.head_middle > div[class]:first-child
 zhiding.cn##.headads
 biz.ifeng.com##.header
-vpsmm.com##.header + .d-none
 ieforex.com##.header > .left
 i.maxthon.cn##.header-hotkeys
 animewld.club##.header-img
@@ -12985,7 +12989,7 @@ duba.com,newduba.cn##.side_taobao
 uu114.cn##.side_top_banner
 hmog.me##.side_widget:last-child
 qzone.qq.com##.side_wrapper.side_wrapper_v3
-cjn.cn,vpsmm.com##.sidebar
+cjn.cn##.sidebar
 qiuquan.cc##.sidebar .aligncenter
 zol.com.cn##.sidebar > .n1-pad-entrance-wrap
 pupudy.com##.sidebar > .widget-textasst:nth-child(n+3)
@@ -13011,7 +13015,6 @@ kocpc.com.tw##.sidebar:nth-child(3)
 pic.sogou.com##.sidebar_box.shut
 v2ex.com##.sidebar_compliance
 v2ex.com##.sidebar_units
-vpsmm.com##.sidebarx
 fsdpp.cn##.sidebox > a > img
 qq.com##.sider_ad
 docin.com##.sider_gg
@@ -14202,7 +14205,6 @@ e0575.cn##div[id^="tid_"]
 baidu.com##div[id^="toast"]
 4c.cn##div[id^="top_ad"]
 my0511.com##div[id^="topad"]
-vpsmm.com##div[id^="topads"]
 u17.com##div[id^="u17-advert"]
 qinzhou8.com##div[id^="v4ad-"]
 lnd.com.cn##div[id^="wflash"]
