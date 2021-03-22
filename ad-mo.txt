@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0u9GRsRcCLI022P/u5e5Sg
+! Checksum: CnPJJBJgt5oahZ2K62gH6Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202103230032
-! Last Modified: 2021年03月23日 00:32
+! Version: 202103230422
+! Last Modified: 2021年03月23日 04:22
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -30005,6 +30005,7 @@ _popunder+$popup
 ##.wall_ad
 ##.wall_ad_hd
 ##.wallad
+##.wallpaper-ad-top
 ##.wallpaper-parade-ad-container
 ##.wantads
 ##.waterfall-ad-anchor
@@ -82404,6 +82405,7 @@ cgi-bin/counter
 .acemlna.com/Prod/link-tracker?
 .alcmpn.com/
 .app.returnpath.net/
+.awstrack.me/$image
 .bhphotovideo.com/mo/
 .bluekai.com/*?e_id_
 .cmail19.com/t/$image
@@ -98709,6 +98711,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||assets.adobedtm.com^*-source.min.js$domain=manager-magazin.de
 @@||businessclick.ch/index.js$domain=finanzen.ch
 @@||darmstadt.ui-traffic.de/mobile/webapp/bower_components/heatmap.js$domain=darmstadt.ui-traffic.de
+@@||derwesten.de/resources/*/img/transparent_pixel.png$image,~third-party
 @@||deutschlandfunkkultur.de/themes/*/js.php?files=*,script/smarttag.js,$script,~third-party
 @@||energy.de^*/ivw.js?$domain=energy.de
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
