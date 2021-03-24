@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UvMdusrEO6WUBOP4N2jeZQ
+! Checksum: WZO57vgbia4K0i+X+PZo4g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202103241235
-! Last Modified: 2021年03月24日 12:35
+! Version: 202103241635
+! Last Modified: 2021年03月24日 16:35
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -8533,6 +8533,7 @@ takeover_banner_
 /2market.php?
 ://rs-stripe.wsj.com/stripe/image?
 /?wmi=*lp=$document
+/search/tsc.php?
 /full-page-script.js$script
 /earn.php?z=$popup,subdocument
 /pop2.js
@@ -24978,10 +24979,6 @@ _popunder+$popup
 ##.display_adv_show
 ##.display_advrst
 ##.div-google-adx
-##.div-gpt-ad
-##.div-gpt-ad--interstitiel
-##.div-gpt-ad--top
-##.div-gpt-ad-adhesion-leaderboard-wrap
 ##.divAd
 ##.divAdright
 ##.divAdsBanner
@@ -30520,6 +30517,7 @@ _popunder+$popup
 ##FBS-AD
 ##LEADERBOARD-AD
 ##[ad-id^="googlead"]
+##[class^="div-gpt-ad"]
 ##[data-ad-module]
 ##[data-dynamic-ads]
 ##[href*=".adcampo.com/"]
@@ -31226,7 +31224,6 @@ _popunder+$popup
 ##div[class^="articleAdUnitMPU_"]
 ##div[class^="awpcp-random-ads"]
 ##div[class^="block-openx-"]
-##div[class^="div-gpt-ad"]
 ##div[class^="hp-ad-rect-"]
 ##div[class^="index__adWrapper"]
 ##div[class^="index_adAfterContent_"]
@@ -51768,7 +51765,7 @@ menstennisforums.com#@#.top_ads
 ||richardroeper.com/assets/banner/
 ||rpgcodex.net^*/gog_button.jpg
 ||s.radioreference.com/sm/$image
-||s3.reutersmedia.net/resources/r/?m=$image
+||s3.reutersmedia.net/resources/r/?b=$image
 ||saabsunited.com/wp-content/uploads/*banner
 ||sareunited.com/uploaded_images/banners/
 ||sat24.com/bannerdetails.aspx?
@@ -59088,6 +59085,8 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||cdhhbyy.cn^
+||55kk.tv^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/d/*-*-*.ap|$script,third-party
